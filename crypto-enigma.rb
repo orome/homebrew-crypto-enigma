@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class CryptoEnigmaMacos < Formula
+class CryptoEnigma < Formula
   desc "Enigma machine executable for macOS"
   homepage ""
   url "https://github.com/orome/crypto-enigma-macos/archive/0.0.0.tar.gz", :using => :curl
