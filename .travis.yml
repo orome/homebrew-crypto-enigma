@@ -1,0 +1,12 @@
+language: shell
+
+os: osx
+osx_image: xcode10.2
+
+script:
+  - brew tap orome/crypto-enigma
+  - brew tap
+  - brew install crypto-enigma
+  - enigma --version
+  - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 10
+
