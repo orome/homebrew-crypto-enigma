@@ -1,12 +1,22 @@
 language: shell
 
-os: osx
-osx_image: xcode10.2
+os: osx 
+
+jobs:
+  include:
+    - name: "macOS 10.14 Xcode 10.2.1"     
+      osx_image: xcode10.2 
+    - name: "macOS 10.13 Xcode 10.1" 
+      osx_image: xcode10.1
+    - name: "macOS 10.13 Xcode 10.0"  
+      osx_image: xcode10
+    - name: "macOS 10.13 Xcode 9.4.1"   
+      osx_image: xcode9.4     
 
 script:
   - brew tap orome/crypto-enigma
   - brew tap
   - brew install crypto-enigma
   - enigma --version
-  - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 10
+  - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 20
 
