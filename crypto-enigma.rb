@@ -4,13 +4,13 @@
 class CryptoEnigma < Formula
   desc "Enigma machine executable for macOS"
   homepage ""
-  url "https://github.com/orome/crypto-enigma-macos/archive/0.0.0.tar.gz", :using => :curl
+  url "https://github.com/orome/crypto-enigma-macos/archive/0.1.1.5.tar.gz", :using => :curl
   #sha256 "829daa6add325823038949af2c8112668896b9c17503025626244fef6c8bb5a8"
 
   #depends_on "curl"
 
   def install
-    bin.install "test.txt"
+    bin.install "enigma"
   end
 
   test do
