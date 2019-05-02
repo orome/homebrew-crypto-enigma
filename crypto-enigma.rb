@@ -10,7 +10,7 @@ class CryptoEnigma < Formula
   #depends_on "curl"
 
   def install
-    bin.install "crypto-enigma/test.txt"
+    bin.install "test.txt"
   end
 
   test do
