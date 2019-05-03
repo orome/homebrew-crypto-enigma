@@ -20,3 +20,6 @@ script:
   - enigma --version
   - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 20
 
+addons:
+  ssh_known_hosts:
+  - github.com
