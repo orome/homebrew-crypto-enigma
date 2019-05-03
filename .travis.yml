@@ -15,6 +15,10 @@ jobs:
     - name: "macOS 10.13 Xcode 9.4.1"   
       osx_image: xcode9.4     
 
+
+before_script:
+  - brew update #>/dev/null
+
 script:
   - brew tap orome/crypto-enigma
   - brew tap
