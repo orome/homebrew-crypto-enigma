@@ -18,6 +18,7 @@ class CryptoEnigma < Formula
 
   test do
     assert_match "0.1.1.5", shell_output("#{bin}/enigma --version") 
+    # Update these tests when bug is fixed: https://github.com/orome/crypto-enigma-hs/issues/33
     assert_match "OZQK PFLP YZRP YTFV U", shell_output("#{bin}/enigma encode 'B-I-III-I EMO UX.MO.AY 13.04.11' 'TESTINGXTESTINGUD'") 
     assert_match "OZQK PFLP YZRP YTFV U", shell_output("#{bin}/enigma encode 'B-I-III-I EMO UX.MO.AY 13.04.11' 'TESTING! testing?'") 
   end
