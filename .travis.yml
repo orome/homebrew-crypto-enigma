@@ -24,6 +24,8 @@ script:
   - brew test crypto-enigma
   - enigma --version
   - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 20
+  - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "SOFORT" -f config
+  - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "SOFORT" -f internal  
 
 #addons:
 #  ssh_known_hosts:
