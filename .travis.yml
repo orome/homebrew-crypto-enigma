@@ -2,6 +2,8 @@ language: shell
 
 os: osx 
 
+env: HOMEBREW_NO_EMOJI=1
+
 jobs:
   include:
     - name: "macOS 10.14 Xcode 10.2.1"     
@@ -17,9 +19,10 @@ script:
   - brew tap orome/crypto-enigma
   - brew tap
   - brew install crypto-enigma
+  - brew info crypto-enigma
   - enigma --version
   - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 20
 
-addons:
-  ssh_known_hosts:
-  - github.com
+#addons:
+#  ssh_known_hosts:
+#  - github.com
