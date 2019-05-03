@@ -20,6 +20,8 @@ script:
   - brew tap
   - brew install crypto-enigma
   - brew info crypto-enigma
+  - which -a enigma
+  - brew test crypto-enigma
   - enigma --version
   - enigma run "B-I-III-I EMO UX.MO.AY 13.04.11" -m "TESTING" -s 20
 
