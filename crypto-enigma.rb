@@ -5,7 +5,7 @@ class CryptoEnigma < Formula
   desc "Enigma machine executable for macOS"
   homepage ""
   url "https://github.com/orome/crypto-enigma-macos/archive/0.1.1.5.tar.gz", :using => :curl
-  version "0.1.1.5"
+  #version "0.1.1.5"
   #url "git@github.com:orome/crypto-enigma-macos.git", :using => :git
   #url "https://github.com/orome/crypto-enigma-macos.git"#, :using => :git  
 
