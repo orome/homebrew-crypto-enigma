@@ -8,11 +8,11 @@ jobs:
   include:
     - name: "macOS 10.15.7 Xcode 12.2"
       osx_image: xcode12.2
-    - name: "macOS 10.14 Xcode 11"
-      osx_image: xcode11
+    - name: "macOS 10.15.4 Xcode 11.5"
+      osx_image: xcode11.5
     - name: "macOS 10.14.4 Xcode 10.3"
       osx_image: xcode10.3
-    - name: "macOS 10.14 Xcode 10.2.1"     
+    - name: "macOS 10.14 Xcode 10.2.1"    
       osx_image: xcode10.2 
     - name: "macOS 10.13 Xcode 10.1" 
       osx_image: xcode10.1
